@@ -10,6 +10,10 @@ npm intall cors
 
 Make sure you have Mongo installed.
 
-Then finally run:
+Then run:
 
 docker run -p 27017:27017 --name mybank -d mongo
+
+and:
+
+node index.js
